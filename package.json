@@ -1,0 +1,25 @@
+{
+  "name": "animation_terminal",
+  "version": "1.0.0",
+  "description": "Uma ferramenta CLI de animar um vídeo no seu terminal ",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "preferGlobal": true,
+  "bin": {
+    "animation": "./src/index.js"
+  },
+  "author": "Kauã amaro pires",
+  "license": "ISC",
+  "dependencies": {
+    "ascii-art-image": "^1.4.0",
+    "chalk": "^4.1.2",
+    "events": "^3.3.0",
+    "ffmpeg-extract-frames": "^2.0.2",
+    "figlet": "^1.5.2",
+    "fs": "^0.0.1-security",
+    "inquirer": "^8.0.0",
+    "termination": "^1.0.3"
+  }
+}
